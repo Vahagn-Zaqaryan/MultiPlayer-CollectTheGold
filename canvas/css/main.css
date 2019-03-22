@@ -1,0 +1,28 @@
+/*----Main CSS----*/
+/*All tags*/
+@font-face {
+    font-family: robot123;
+    src: url(../fonts/zorque.ttf);
+}
+*{
+  cursor: url(../cursor/cur.cur), default;
+  cursor: url(../cursor/cur.cur), context-menu;
+  cursor: url(../cursor/cur.cur), auto;
+  font-family: robot123;
+  padding: 0;
+  margin: 0;
+}
+/*Body style*/
+body{
+  cursor: url(../cursor/cur.cur), default;
+  cursor: url(../cursor/cur.cur), context-menu;
+  cursor: url(../cursor/cur.cur), auto;
+
+  background-image: url('../image/background_image.gif');
+  margin: 0;
+  padding: 0;
+}
+/*----Game Box class("Main")----*/
+.Main{
+  padding: 30px;
+}
